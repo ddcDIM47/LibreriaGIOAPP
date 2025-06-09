@@ -71,7 +71,7 @@ publishing {
                 scm {
                     connection = 'scm:git:git://github.com/ddcDIM47/LibreriaGIOAPP.git'
                     developerConnection = 'scm:git:ssh://github.com/ddcDIM47/LibreriaGIOAPP.git'
-                    url = 'https://github.com/ddcDIM47/LibreriaGIOAPP.git'
+                    url = 'https://github.com/ddcDIM47/LibreriaGIOAPP'
                 }
             }
         }
