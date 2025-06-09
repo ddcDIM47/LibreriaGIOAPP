@@ -10,8 +10,8 @@ public interface Paciente {
 	public void setUltimaVisita(LocalDate ultimaVisita);
 	public Boolean getSeleccionado();
 	public void setSeleccionado(Boolean seleccionado);
-	public Collection<InformeImpl> getInformes();
-	public void setInformes(Collection<InformeImpl> informes);
+	public Collection<Informe> getInformes();
+	public void setInformes(Collection<Informe> informes);
 	
 	// Establece la relacion en los dos sentidos
     public void addInforme(InformeImpl informe);
