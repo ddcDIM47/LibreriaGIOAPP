@@ -1,7 +1,0 @@
-jdk:
-  - openjdk21
-
-gradle:
-  buildFile: libreria/lib/build.gradle
-  tasks:
-    - assemble
