@@ -6,8 +6,8 @@ public interface Informe {
 
 	public String getNombre();
 	public void setNombre(String nombreString);
-	public PacienteImpl getPaciente();
-	public void setPaciente(PacienteImpl paciente) ;
+	public Paciente getPaciente();
+	public void setPaciente(Paciente paciente) ;
 	public String getTexto() ;
 	public void setTexto(String textoString);
 	public Instant getFechaConsulta() ;
