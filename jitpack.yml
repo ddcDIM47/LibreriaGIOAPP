@@ -3,5 +3,5 @@ jdk:
 
 build:
   gradle:
-    buildFile: lib/build.gradle
+    buildFile: libreria/lib/build.gradle
     tasks: assemble
