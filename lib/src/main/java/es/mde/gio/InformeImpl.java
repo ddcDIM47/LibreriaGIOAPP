@@ -33,11 +33,11 @@ public class InformeImpl implements Informe{
     this.nombre = nombreString;
   }
   @Override
-  public PacienteImpl getPaciente() {
+  public Paciente getPaciente() {
     return paciente;
   }
   @Override
-  public void setPaciente(PacienteImpl paciente) {
+  public void setPaciente(Paciente paciente) {
     this.paciente = paciente;
   }
   @Override
