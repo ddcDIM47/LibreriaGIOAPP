@@ -12,7 +12,7 @@ public class PacienteImpl extends PersonaImpl implements Paciente{
 	private String sexo;
 	private LocalDate ultimaVisita;
 	private Boolean seleccionado;
-	private Collection<InformeImpl> informes = new ArrayList<>();
+	private Collection<Informe> informes = new ArrayList<>();
 	
 	public PacienteImpl() {
 		super();
@@ -62,13 +62,13 @@ public class PacienteImpl extends PersonaImpl implements Paciente{
 	}
 
 	@Override
-	public void setInformes(Collection<InformeImpl> informes) {
+	public void setInformes(Collection<Informe> informes) {
 	   this.informes = informes;
 	}
 
 	// Establece la relacion en los dos sentidos
 	@Override
-	public void addInforme(InformeImpl informe) {
+	public void addInforme(Informe informe) {
         getInformes().add(informe);
         informe.setPaciente(this);
     }
