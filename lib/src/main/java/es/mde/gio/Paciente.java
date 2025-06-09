@@ -14,5 +14,5 @@ public interface Paciente {
 	public void setInformes(Collection<Informe> informes);
 	
 	// Establece la relacion en los dos sentidos
-    public void addInforme(InformeImpl informe);
+    public void addInforme(Informe informe);
 }
