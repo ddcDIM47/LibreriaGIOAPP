@@ -57,7 +57,7 @@ public class PacienteImpl extends PersonaImpl implements Paciente{
 	}
 	
 	@Override
-	public Collection<InformeImpl> getInformes() {
+	public Collection<Informe> getInformes() {
 	    return informes;
 	}
 
