@@ -5,11 +5,11 @@ import java.time.Instant;
 public class InformeImpl implements Informe{ 
   
   private String nombre;
-  private PacienteImpl paciente;
+  private Paciente paciente;
   private String texto;
   private Instant fechaConsulta;
   
-   public InformeImpl(String nombre, PacienteImpl paciente, String texto) {
+   public InformeImpl(String nombre, Paciente paciente, String texto) {
 	super();
 	this.nombre = nombre;
 	this.paciente = paciente;
